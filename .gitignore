@@ -3,7 +3,6 @@
 /.published
 /.pkg
 /.cache
-/.vscode
 /.eventcache
 vendor
 data-agent
@@ -26,3 +25,7 @@ cover*.out
 node_modules
 
 /docs/variables.mk.local
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+.gitignore

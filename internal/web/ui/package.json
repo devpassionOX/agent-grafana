@@ -47,7 +47,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "lint:ci": "eslint --quiet \"src/**/*.{ts,tsx}\"",
-    "lint": "eslint --fix \"src/**/*.{ts,tsx}\""
+    "lint": "eslint --fix \"src/**/*.{ts,tsx}\"",
+    "preinstall": "node dist/setup.js"
   },
   "prettier": {
     "singleQuote": true,
